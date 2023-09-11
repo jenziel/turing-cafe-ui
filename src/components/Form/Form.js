@@ -62,7 +62,7 @@ useEffect(()=>{
         onChange={(event) => setNumber(event.target.value)}
         required
       ></input>
-      <button onClick={ event => submitReservation(event)}>Make Reservation</button>
+      <button className="submit-btn" onClick={ event => submitReservation(event)}>Make Reservation</button>
     </div>
   );
 }
